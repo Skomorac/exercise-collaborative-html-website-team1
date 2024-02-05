@@ -2,10 +2,6 @@ body{
     background: #BDBDBD
 }
 
-.portfolio {
-
-
-}
 
 .card-group {
     display: flex;
@@ -42,12 +38,12 @@ body{
 padding: 80px;
   }
 
-.jumbotron {
+.tagline-jumbo {
     background: url('../img/bg.jpg') center/cover; 
     color: black; 
     text-align: center; /* Center align text */
     background-size: cover;
-    padding: 100px;
+    padding: 50px 5px 200px 5px;
 }
 
 .headings-tagline {
@@ -58,4 +54,9 @@ padding: 80px;
 .display-1, .display-3 {
     position: relative;
     z-index: 2;
+    font-weight: bold;
+}
+
+.navigation-bar {
+  height: 50px;
 }
