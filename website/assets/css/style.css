@@ -1,3 +1,43 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+
+.portfolio {
+
+
+}
+
+.card-group {
+    display: flex;
+    gap: 15px;
+  }
+
+  .card {
+    width: 350px;
+  }
+
+  .card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+  }
+
+  .card-title{
+    color:lightskyblue
+  }
+  .container{
+    background-color: rgb(236, 234, 234);
+    border-color: grey;
+    border: 10px;
+    width: 900px;
+  }
+  .bordered-container {
+    border: 1px solid #cccccc; 
+    padding: 20px; 
+    border-radius: 5px; 
+  }
+
+  .container-fluid{
+
+padding: 80px;
+  }
